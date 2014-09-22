@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var b = require('bonescript');
 var pinDown     = 'P9_27',
     pinUp       = 'P9_24',

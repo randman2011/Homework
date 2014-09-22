@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var b = require('bonescript');
 var util = require('util');
 //var rencoder = require('./readRotaryEncoder.js');
