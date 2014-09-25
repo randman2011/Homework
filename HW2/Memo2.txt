@@ -1,0 +1,5 @@
+I discovered that the assignment did not require using the rotary encoders as input for the etch-a-sketch, so I obtained four push-buttons. The code required modification to accomodate the interrupts, but was very quickly up and running.
+
+In what seems like a never-ending stream of problems, I could not get github to sync on the bone. I originally set it up in the wrong directory and ended up syncing empty folders, so I deleted the repository to start over. This time it wouldn't allow me to connect to a repository at all. This was not resolved until we worked on Monday to fix it.
+
+The board has been wired up to accept the temp sensors and matrix on the i2c bus. I looked into packages that were released to interface with i2c from BoneScript but found that most were abandoned or not yet fully functioning.
