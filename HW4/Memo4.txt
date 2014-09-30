@@ -1,0 +1,5 @@
+This week has been incredibly unproductive. A virus on my Windows partition meant a reload for my laptop, which wiped out my Linux partition. The machine was reloaded by Monday morning, and Ubuntu has now been reinstalled. For some reason, though, I cannot get cloud9 to run my programs from HW3. They are giving file path errors. The sample C programs for i2c are also failing to run from terminal. Beginning Monday in class, network is no longer working in Ubuntu even though it works fine under Windows.
+
+In the meantime, I installed Ubuntu on my desktop hoping to make progress over the weekend. I was unable to setup and sync my git repository because our router has been dropping packets and the download would error out.
+
+Where I stand now, my i2c bus is set up properly and I could run the provided sample i2c executables until I recompiled them. Now they hang and I have to CTRL+C out of them.
