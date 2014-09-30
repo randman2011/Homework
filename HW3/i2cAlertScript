@@ -1,0 +1,3 @@
+#!/bin/bash
+i2cset -y -r 1 0x48 2 0x14
+i2cset -y -r 1 0x48 3 0x17
