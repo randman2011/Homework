@@ -1,0 +1,6 @@
+1. Target = app.o
+2. Dependency = app.c
+3. Command = gcc
+
+-c flag: Compile or assemble the source files, but do not link.  The linking stage simply is not done.  The ultimate output is in the form of an object file for each source file.
+

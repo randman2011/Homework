@@ -47,28 +47,28 @@ printToConsole();
 function up()
 {
     yIndex = Math.max(yIndex - 1, 0);
-    flashLED("USR3");
+    flashLED("USR0");
     changeArray();
 }
 
 function down()
 {
     yIndex = Math.min(yIndex + 1, arrSize - 1);
-    flashLED("USR2");
+    flashLED("USR1");
     changeArray();
 }
 
 function right()
 {
     xIndex = Math.min(xIndex + 1, arrSize - 1);
-    flashLED("USR0");
+    flashLED("USR3");
     changeArray();
 }
 
 function left()
 {
     xIndex = Math.max(xIndex - 1, 0);
-    flashLED("USR1");
+    flashLED("USR2");
     changeArray();
 }
 
