@@ -13,8 +13,8 @@ s.exec("i2cset -y 1 0x49 0x3 0x19");
 
 b.pinMode(P1, b.INPUT);
 b.pinMode(P2, b.INPUT);
-b.attachInterrupt(P1, true, b.RISING, P1Alert);
-b.attachInterrupt(P2, true, b.RISING, P2Alert);
+b.attachInterrupt(P1, true, b.FALLING, P1Alert);
+b.attachInterrupt(P2, true, b.FALLING, P2Alert);
 
 function P1Alert()
 {
