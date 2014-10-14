@@ -1,3 +1,5 @@
 #!/bin/bash
 rawVal=$(i2cget -y 1 0x48 0)
 echo $rawVal  " Celsuis:" $(($rawVal))  " Farenheit:" $(($rawVal *9 /5 +32))
+rawVal=$(i2cget -y 1 0x49 0)
+echo $rawVal  " Celsuis:" $(($rawVal))  " Farenheit:" $(($rawVal *9 /5 +32))
