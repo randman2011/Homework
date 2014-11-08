@@ -1,0 +1,2 @@
+11/08/14
+Completed Cross Compiling exercise. a.out compiled from host added to bone repository.
